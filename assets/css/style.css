@@ -145,6 +145,7 @@ footer a{
         transition: .5s;
         z-index: 1000;
         overflow-y: hidden;
+        touch-action: auto;
     }
 
     #nav.active #menu{
@@ -152,6 +153,7 @@ footer a{
         visibility: visible;
         height: calc(100vh - 90px);
         overflow-y: auto;
+        touch-action: none;
     }
 
     #menu a{
